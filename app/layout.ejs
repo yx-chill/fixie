@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@1,900&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="header d-flex justify-content-between align-items-center border px-6 py-2">
+    <a class="logo d-block hvr-grow" href="/">fixie</a>
+    <ul class="d-flex align-items-center fs-4 fw-bold m-0">
+      <li><a class="d-block px-2 bg-white hvr-underline-reveal" href="#">Product</a></li>
+      <li><a class="d-block px-2 bg-white hvr-underline-reveal" href="#">Blog</a></li>
+      <li><a class="d-block px-2 bg-white hvr-underline-reveal" href="#">contact</a></li>
+    </ul>
+  </header>
+  <%- contents %>
+
+  <footer class="footer" data-aos="slide-up" data-aos-duration="200" data-aos-once="true">
+    <div class="container">
+      <div class="bg-success d-flex justify-content-between align-items-center px-6 py-2">
+        <ul class="d-flex align-items-center fs-5 fw-bold m-0">
+          <li><a class="d-block px-2 bg-success hvr-underline-reveal" href="#">Product</a></li>
+          <li><a class="d-block px-2 bg-success hvr-underline-reveal" href="#">Blog</a></li>
+          <li><a class="d-block px-2 bg-success hvr-underline-reveal" href="#">contact</a></li>
+        </ul>
+        <p class="fw-6 text-secondary roboto">© 2020 Fixie. All Rights Reserved.</p>
+        <a class="logo d-block hvr-grow" href="/">fixie</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
