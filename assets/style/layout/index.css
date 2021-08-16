@@ -1,0 +1,51 @@
+.title {
+  height: 800px;
+}
+
+.gear {
+  height: 960px;
+}
+
+.gear .bg-bike {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img2.jpg?raw=true") center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.gear .bg-bike .arrow {
+  right: -53px;
+}
+
+.gear-title {
+  right: 96px;
+  bottom: 196px;
+}
+
+.chain {
+  height: 960px;
+}
+
+.chain-title {
+  top: 192px;
+  left: 96px;
+}
+
+.chain .bg-chain {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img3.jpg?raw=true") center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.chain .bg-chain .more {
+  left: -150px;
+}
+
+.bg-people {
+  height: 640px;
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img4.jpg?raw=true");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=index.css.map */
